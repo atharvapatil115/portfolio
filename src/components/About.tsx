@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import photo from '../assets/photo.jpg';
+import photo from '../assets/photo2.png';
 
 const About: React.FC = () => {
   const [ref, inView] = useInView({
