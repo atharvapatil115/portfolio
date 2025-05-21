@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ArrowUpRight, ArrowRight } from 'lucide-react';
 import GCS from "../assets/GCS.png";
-
+import Face_recog from "../assets/Face_recog.jpg"; 
+import voice from  "../assets/voice.jpg"
 interface Project {
   title: string;
   duration: string;
@@ -35,7 +36,7 @@ const Projects: React.FC = () => {
       duration: '04/2025 - Present',
       description: 'Building a modular voice assistant using Python with Text-to-Speech capabilities. Implemented core features such as real-time date/time retrieval, sending messages, system shutdown, and launching web browsers via voice commands. Integrated DevOps practices by setting up GitHub Actions for automated testing and continuous integration, ensuring reliable builds and structured development flow.',
       technologies: ['Python', 'Text-to-Speech (TTS)', 'GitHub Actions', 'DevOps', 'CI/CD'],
-      imageSrc: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg',
+      imageSrc: voice,
       category: 'Current'
     },
     {
@@ -51,7 +52,7 @@ const Projects: React.FC = () => {
       duration: '07/2024 - 09/2024',
       description: 'Developed a Python-based system using OpenCV, Facial recognition, Tkinter, and CSV to recognize faces and mark attendance with a login and registration feature.',
       technologies: ['Python', 'OpenCV', 'Facial Recognition', 'Tkinter', 'CSV'],
-      imageSrc: 'https://images.pexels.com/photos/5752251/pexels-photo-5752251.jpeg',
+      imageSrc: Face_recog,
       category: 'Past'
     },
     {
